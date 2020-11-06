@@ -1,0 +1,14 @@
+name: Coinsystem
+version: ${project.version}
+main: de.bogsu.coinsystem.Coinsystem
+api-version: 1.16
+authors: [ Bogsu ]
+description: Coinsystem for Minecraft Legend
+
+commands:
+  coinmanagement:
+    description: Der Spieler öffnet eine Liste seiner aktuellen Konten
+  coincreate:
+    description: Der Spieler erstellt ein neues Konto
+  coindelete:
+    description: Der Spieler löscht eins seiner Konten
